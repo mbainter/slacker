@@ -45,7 +45,6 @@ func makeWar(user string) string{
 	`californian`,
 	`slimy`,
 	`smelly`,
-	`slutty`,
 	`pompous`,
 	`communist`,
 	`wangnose`,
@@ -64,25 +63,13 @@ func makeWar(user string) string{
 
 	it3:=[]string{
 	`spaz`,
-	`douche`,
 	`turd`,
-	`ass`,
-	`rectum`,
 	`butt`,
 	`poop`,
 	`armpit`,
-	`crotch`,
-	`bitch`,
 	`slime`,
-	`prick`,
-	`slut`,
-	`taint`,
 	`roach`,
 	`snot`,
-	`boner`,
-	`shart`,
-	`nut`,
-	`sphincter`,
 	}
 
 	it2:=[]string{
@@ -109,7 +96,8 @@ func makeWar(user string) string{
 	}
 
 	n:=rand.Intn(2)+1
-	switch n {
+    /* TODO: Trigger this from an optional argument
+    switch n {
 		case 1:
 	   	i:=new(insult)
 			resp,_:=http.Get(`http://pleaseinsult.me/api`)
@@ -119,6 +107,8 @@ func makeWar(user string) string{
 		case 2:
 			return fmt.Sprintf("%s is a %s %s %s",user, it1[rand.Intn(len(it1))], it2[rand.Intn(len(it2))],it3[rand.Intn(len(it3))])
 	}
+    */
+	return fmt.Sprintf("%s is a %s %s %s",user, it1[rand.Intn(len(it1))], it2[rand.Intn(len(it2))],it3[rand.Intn(len(it3))])
 	return fmt.Sprintf("... derp, excuse me I have a bug: %s",n)
 }
 
@@ -134,13 +124,11 @@ func makeLove(user string) string{
 		`I like those shoes more than mine.`,
 		`Nice motor control!`,
 		`You have a good taste in websites.`,
-		`Your mouse told me that you have very soft hands.`,
 		`You are full of youth.`,
 		`I like your jacket.`,
 		`You have a good web-surfing stance.`,
 		`You should be a poster child for poster children.`,
 		`I appreciate you more than Santa appreciates chimney grease.`,
-		`I wish I was your mirror.`,
 		`I find you to be a fountain of inspiration.`,
 		`You have perfect bone structure.`,
 		`I disagree with anyone who disagrees with you.`,
@@ -156,8 +144,6 @@ func makeLove(user string) string{
 		`The sound of your voice sends tingles of joy down my back.`,
 		`I enjoy spending time with you.`,
 		`I would share my dessert with you.`,
-		`I would love to visit you, but I live on the cloudbutts.`,
-		`I love the way you click.`,
 		`You're invited to my birthday party.`,
 		`All of your ideas are brilliant!`,
 		`If I freeze, it's not a computer virus.  I was just stunned by your intellect.`,
@@ -194,9 +180,7 @@ func makeLove(user string) string{
 		`:heart: :heart: :heart:`,
 		`You are more fun than a Japanese steakhouse.`,
 		`Your voice is more soothing than Morgan Freeman's.`,
-		`You could be drinking whole milk if you wanted to.`,
 		`I support all of your decisions.`,
-		`You are as fun as a hot tub full of chocolate pudding.`,
 		`Being awesome is hard, but you'll manage.`,
 		`Your skin is radiant.`,
 		`You could survive a zombie apocalypse.`,
