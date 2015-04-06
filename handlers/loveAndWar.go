@@ -5,8 +5,8 @@ import (
 	sl "github.com/mbainter/slacker/slackerlib"
 	"math/rand"
 	"time"
-	"net/http"
-	"encoding/json"
+	//"net/http"
+	//"encoding/json"
 	"regexp"
 )
 
