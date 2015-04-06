@@ -8,7 +8,7 @@ var Bai = sl.ShutdownHook{
 	Name: `Bai`,
 	Usage:`log a friendly goodbye message on a graceful shutdown`,
 	Run:	func(bot *sl.Sbot){
-		bot.Say(`Welp, I just got SigTermd, peaceOUT! :fist:`)
+		bot.Say(`I have been remotely shut down. Goodbye.`)
 		sl.Logger.Info(`Caught SigTerm, slacker shutting down...ZOMGBAI!!`)
 	},
 }
