@@ -1,10 +1,10 @@
 package main
 
 import(
-	sl "github.com/djosephsen/slacker/slackerlib"
-	"github.com/djosephsen/slacker/inithooks"
-	"github.com/djosephsen/slacker/handlers"
-	"github.com/djosephsen/slacker/chores"
+	sl "github.com/mbainter/slacker/slackerlib"
+	"github.com/mbainter/slacker/inithooks"
+	"github.com/mbainter/slacker/handlers"
+	"github.com/mbainter/slacker/chores"
 )
 
 func initPlugins(b *sl.Sbot) error{

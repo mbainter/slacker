@@ -1,7 +1,7 @@
 package slackerlib
 
 import (
-   "github.com/ccding/go-logging/logging"
+   "github.com/mbainter/go-logging/logging"
    "github.com/danryan/env"
    "os"
    "time"

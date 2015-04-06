@@ -1,7 +1,7 @@
 package chores
 
 import (
-	sl "github.com/djosephsen/slacker/slackerlib"
+	sl "github.com/mbainter/slacker/slackerlib"
 )
 
 var RTMPing = sl.Chore{

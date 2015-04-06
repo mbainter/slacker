@@ -2,7 +2,7 @@ package handlers
 
 import (
 	"fmt"
-	sl "github.com/djosephsen/slacker/slackerlib"
+	sl "github.com/mbainter/slacker/slackerlib"
 	"math/rand"
 	"time"
 	"net/http"

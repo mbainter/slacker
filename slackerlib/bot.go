@@ -2,7 +2,7 @@ package slackerlib
 
 import (
 	"github.com/gorilla/websocket"
-	"github.com/ccding/go-logging/logging"
+	"github.com/mbainter/go-logging/logging"
 	"os"
 	"time"
 	"encoding/json"

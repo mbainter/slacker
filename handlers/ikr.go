@@ -4,7 +4,7 @@ import (
 	"time"
 	"math/rand"
 	"strings"
-	sl "github.com/djosephsen/slacker/slackerlib"
+	sl "github.com/mbainter/slacker/slackerlib"
 )
 
 var IKR = sl.MessageHandler{

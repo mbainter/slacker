@@ -1,7 +1,7 @@
 package handlers
 
 import (
-	sl "github.com/djosephsen/slacker/slackerlib"
+	sl "github.com/mbainter/slacker/slackerlib"
 	"net/http"
 	"net/url"
 	"encoding/json"

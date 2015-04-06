@@ -1,7 +1,7 @@
 package main
 
 import (
-sl "github.com/djosephsen/slacker/slackerlib"
+sl "github.com/mbainter/slacker/slackerlib"
 "os/signal"
 "syscall"
 )

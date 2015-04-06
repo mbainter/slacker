@@ -1,6 +1,6 @@
 package handlers
 
-import sl "github.com/djosephsen/slacker/slackerlib"
+import sl "github.com/mbainter/slacker/slackerlib"
 
 var Tableflip = sl.MessageHandler{
 	Name: `Tableflip`,
